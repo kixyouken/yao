@@ -1,0 +1,11 @@
+{
+    "name": "菜单123",
+    "action": {
+        "bind": {
+            "model": "admin_menu",
+            "option": {
+                "form": "admin_menu"
+            }
+        }
+    }
+}

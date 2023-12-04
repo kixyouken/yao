@@ -1,0 +1,9 @@
+{
+    "name": "用户",
+    "action": {
+        "bind": {
+            "model": "users",
+            "option": {}
+        }
+    }
+}

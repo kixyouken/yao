@@ -1,0 +1,9 @@
+{
+    "name": "admin_permissions",
+    "action": {
+        "bind": {
+            "model": "admin_permissions",
+            "option": {}
+        }
+    }
+}

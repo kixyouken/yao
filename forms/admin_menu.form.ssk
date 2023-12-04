@@ -1,0 +1,9 @@
+{
+    "name": "菜单",
+    "action": {
+        "bind": {
+            "model": "admin_menu",
+            "option": {}
+        }
+    }
+}

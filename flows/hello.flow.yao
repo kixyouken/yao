@@ -1,0 +1,18 @@
+{
+    "label": "Hello",
+    "version": "1.0.0",
+    "description": "Hello",
+    "nodes": [
+        {
+            "name": "hello",
+            "process": "yao.myapi.hello",
+            "args": [
+                "hello world",
+                "foo",
+                "bar",
+                0.618
+            ]
+        }
+    ],
+    "output": "{{$res.args}}"
+}

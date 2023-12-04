@@ -1,0 +1,32 @@
+{
+    "name": "数据图表",
+    "action": {
+        "data": {
+            "process": "scripts.users.Data"
+        }
+    },
+    "layout": {
+        "chart": {
+            "columns": [
+                {
+                    "name": "宠物数量",
+                    "width": 24
+                }
+            ]
+        }
+    },
+    "fields": {
+        "chart": {
+            "宠物数量": {
+                "bind": "pet_count",
+                "link": "/x/Table/demo.pet",
+                "view": {
+                    "type": "Number",
+                    "props": {
+                        "unit": "个"
+                    }
+                }
+            }
+        }
+    }
+}
